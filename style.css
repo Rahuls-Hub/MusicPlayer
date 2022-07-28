@@ -115,7 +115,7 @@ nav ul li
    opacity: 0;
    transition: opacity 0.4s ease-in;
 }
-@media screen and (max-width:400)
+/* @media screen and (max-width:400)
 {
     
     .bottom
@@ -127,4 +127,4 @@ nav ul li
         width: 90%;
         flex-direction: column;
     }
-}
+} */
