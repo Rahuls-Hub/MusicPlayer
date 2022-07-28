@@ -56,7 +56,7 @@ nav ul li
     bottom:0;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -107,6 +107,7 @@ nav ul li
 .songInfo
 {
     position: absolute;
+    margin-bottom: 20px;
     left: 10vw;
     font-family:  'Varela Round', sans-serif;
 }
@@ -115,16 +116,7 @@ nav ul li
    opacity: 0;
    transition: opacity 0.4s ease-in;
 }
-/* @media screen and (max-width:400)
+span.songName
 {
-    
-    .bottom
-    {
-        flex-direction: column;
-    }
-    .songItem
-    {
-        width: 90%;
-        flex-direction: column;
-    }
-} */
+    font-size: 13px;
+}
